@@ -29,12 +29,20 @@ textarea {
   margin-top: 300px;
 }
 
+//NAV BAR
+
+.nav-but {
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+
 /* Jumbotron */
 
 .jumbotron {
   background-image: asset-url("london.png");
   background-size: cover;
   height: 600px;
+  margin-top: 60px;
 }
 
 .jumbotron h1 {
@@ -127,4 +135,36 @@ textarea {
   border-color: #004085;
   border-radius: 2px;
   padding-left: 5px;
+}
+
+
+//DEVISE
+
+/*flash*/
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48 !important;
+  text-align: left;
+}
+
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
 }
